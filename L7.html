@@ -1,0 +1,751 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >L750310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L750310">光電子學（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>周維揚 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >97</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='48424' >綜合大樓                      48424</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L750310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS6001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >L750110</TD>
+<TD style='text-align: center;' >A </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L750110">光電實驗（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>周維揚 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='81202' >K館                           81202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L750110&class_code=A "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS6071</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >L750110</TD>
+<TD style='text-align: center;' >B </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L750110">光電實驗（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>周維揚 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[2]5~7</TD>
+<TD><a class='room' href='#' name='81202' >K館                           81202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L750110&class_code=B "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS6071</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >L750110</TD>
+<TD style='text-align: center;' >C </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L750110">光電實驗（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>許家榮 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >21</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='81202' >K館                           81202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L750110&class_code=C "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS6071</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >L750210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L750210">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>"Moodle"></img></a>限光電所學生                黃勝廣 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >336</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='75X01' >資訊大樓                      格致廳大講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L750210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一                                                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS6091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >L771110</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L771110">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃勝廣 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >336</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='75X01' >資訊大樓                      格致廳大講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L771110&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>博一                                                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7092</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >L771130</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L771130">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃勝廣 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >336</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='75X01' >資訊大樓                      格致廳大講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L771130&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>博二                                                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7094</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >L762000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L762000">專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>黃勝廣 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >336</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='75X01' >資訊大樓                      格致廳大講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L762000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩二及博三以上                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >L762200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L762200">波導光學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>曾碩彥 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L762200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS5002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >L771000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L771000">半導體元件物理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許進恭 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >97</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='48424' >綜合大樓                      48424</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L771000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS6003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >L786400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L786400">材料科學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳昭宇 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[2]7~8<BR>[1]3</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L786400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS5005</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >L770600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD stynk' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L786400">材料科學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳昭宇 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[2]7~8<BR>[1]3</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L786400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;le='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L770600">電磁理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張世慧 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='48312' >綜合大樓                      48312</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L770600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7023</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >L782900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L782900">奈米光學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張世慧 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='48312' >綜合大樓                      48312</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L782900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >L785400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L785400">有機光電材料與元件</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳昭宇 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]3~4<BR>[1]8</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L785400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7016</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >L787900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L787900">顯微術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳宣燁 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='48422' >綜合大樓                      48422</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L787900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >L787700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L787700">生醫光譜學原理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>曾盛豪 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='48312' >綜合大樓                      48312</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L787700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7014</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >L761000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L761000">雷射原理與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>魏明達 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='48422' >綜合大樓                      48422</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L761000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7037</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >L783500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L783500">顯示器光學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許家榮 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L783500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7010</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >L750600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L750600">非線性光學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>呂佳諭 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='48422' >綜合大樓                      48422</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L750600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7021</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >L771400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L771400">物理光學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林俊宏 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[3]7~9</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L771400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >023</TD>
+<TD style='text-align: center;' >L781000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L781000">化合物半導體工程</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>賴韋志 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >97</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='48424' >綜合大樓                      48424</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L781000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >L785600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L785600">太陽能電池</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許進恭 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >97</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='48424' >綜align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7025</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: cen合大樓                      48424</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L785600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS9005</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >Q153010</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=Q153010">半導體及先進奈米化製程技術概論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王英郎 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >230</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='92X18' >電機系館                      迅慧講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=Q153010&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>台積電主管開授(一),(二)都需修課                                         </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >IME5310</TD>
+<TD style='text-align: center;' >奈米積體電路工程碩士班學分學程</TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >L770700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L770700">有機半導體元件專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>郭宗枋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='48422' >綜合大樓                      48422</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L770700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7291</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >032</TD>
+<TD style='text-align: center;' >L782210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L782210">光電半導體製程技術專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>許進恭 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L782210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7198</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >033</TD>
+<TD style='text-align: center;' >L780810</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L780810">液晶光電專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>李佳榮 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='48314' >綜合大樓                      48314</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L780810&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7192</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >034</TD>
+<TD style='text-align: center;' >L785710</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L785710">奈米製程專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林俊宏 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[1]2~3</TD>
+<TD><a class='room' href='#' name='48422' >綜合大樓                      48422</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L785710&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7098</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >光電所           DPS</TD>
+<TD style='text-align: center;' >L7</TD>
+<TD style='text-align: center;' >035</TD>
+<TD style='text-align: center;' >L787410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L787410">生醫光學專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>曾盛豪 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='48422' >綜合大樓                      48422</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L787410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所學生                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >DPS7090</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+��</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L7&cono=L787410">生醫光學專題（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>曾盛豪 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='48422' >綜合大樓                      48422</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L787410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限光電所�

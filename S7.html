@@ -1,0 +1,786 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >S750610</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S750610">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S750610&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一碩二合班                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >S750630</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S750630">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S750630&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩一碩二合班                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7093</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >S761400</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S761400">專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]5</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S761400&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩三以上選修                                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7096</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >S754101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S754101">工業與環境衛生</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>蘇慧貞 <BR />李俊璋 <BR />蔡朋枝 <BR />林明彥*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]1~2</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S754101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >S752201</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S752201">環境毒物學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>廖寶琦 <BR />王應然 <BR />張志欽 <BR />劉明毅*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;'/TD>
+<TD></TD>
+<TD style='text-align: center;' >否</ >50</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='208' >醫學院                        208</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S752201&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7201</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >S750101</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S750101">生物統計</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳致杰 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='204D' >醫學院                        204D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S750101&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7301E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >S750200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S750200">流行病學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>張志欽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S750200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7302</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >S754801</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S754801">環境與職業醫學概論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳政龍 <BR />郭浩然*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S754801&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7401</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >S780500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S780500">環境毒物健康風險評估</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='201D' >醫學院                        201D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S780500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7109</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >S762410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S762410">高等作業環境測定（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡朋枝*<BR />林明彥 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S762410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7114</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >S762500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S762500">職業安全衛生法規</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡朋枝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S762500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7116</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >S760100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: centD>蔡朋枝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S762500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7116</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-aler;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S760100">工業通風</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡朋枝*<BR />林明彥 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S760100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7117</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >S751400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S751400">氣膠學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蔡朋枝 <BR />林明彥*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='201D' >醫學院                        201D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S751400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7119E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >S755410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S755410">實驗毒理學（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王應然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='301D' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S755410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7202</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >L360200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=L360200">質譜學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>廖寶琦 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='304D' >醫學院                        304D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L360200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>環醫所化學所合班                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >CHEM8024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >S755510</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S755510">分子流行病學（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>張志欽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]1~2</TD>
+<TD><a class='room' href='#' name='204D' >醫學院                        204D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S755510&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7307</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >S753610</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S753610">職業病個案診斷研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]1</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S753610&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>職業病個案診斷研究(一)(三)和環境與職業醫學實例討論(一)(三)合班          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH6401</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >S753630</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S753630">職業病個案診斷研究（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]1</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S753630&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH6403</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >02
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S753630">職業病個案診斷研究（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]1</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S753630&class_code=  "><img src="image/moodle.gif3</TD>
+<TD style='text-align: center;' >S760910</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S760910">環境與職業醫學實習（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S760910&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫院門診                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7403</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >S760930</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S760930">環境與職業醫學實習（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S760930&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫院門診                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7405</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >S762200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S762200">職業醫學臨廠服務實務</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S762200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>工廠實地服務                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7407</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >S750610</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S750610">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S750610&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>博一博二合班                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7091</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >S770210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S770210">教學實習（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S770210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>擔任課程助教                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH9001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >S750630</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S750630">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]9~A</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S750630&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>博一博二合班                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7093</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >S770230</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S770230">教學實習（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S770230&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>擔任課程助教                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH9003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >S761400</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S761400">專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]9</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S761400&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>限博三以上選修                                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH7096</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >S772210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S772210">環境與職業衛生論文述評（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>李俊璋 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >60</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='602' >醫學院                        602</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S772210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH9014</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >S770910</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S770910">環境與職業醫學實例討論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]2</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S770910&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>職業病個案診斷研究(一)(三)和環境與職業醫學實例討論(一)(三)合班          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH9009</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >環醫所           EOH</TD>
+<TD style='text-align: center;' >S7</TD>
+<TD style='textext-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S770910">環境與職業醫學實例討論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<T-align: center;' >108</TD>
+<TD style='text-align: center;' >S770930</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S770930">環境與職業醫學實例討論（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]2</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S770930&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>職業病個案診斷研究(一)(三)和環境與職業醫學實例討論(一)(三)合班          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EOH9011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=S7&cono=S770930">環境與職業醫學實例討論（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>郭浩然 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]2</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=S770930&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>職業病個案診斷研究(一)(三)和環境與職業醫學實例討論(一)(三)合班       

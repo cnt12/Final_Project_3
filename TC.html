@@ -1,0 +1,597 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >TC50310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC50310">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>盧豐華 <BR />王新台*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='601' >醫學院                        601</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC50310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本所全體教師合上                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO6193</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >TC50330</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC50330">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>盧豐華 <BR />王新台*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='601' >醫學院                        601</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC50330&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本所全體教師合上                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO6195</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >TC90100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC90100">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>盧豐華 <BR />王新台*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='601' >醫學院                        601</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC90100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本所全體教師合上                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO6191</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >TC51100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC51100">生物統計學入門</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>王新台 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC51100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>電腦教室                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO6104</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >TC51000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC51000">流行病學及研究設計導論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>邱靜如 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD styl                                               </TD>
+e='text-align: center;' >25</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='205D' >醫學院                        205D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC51000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >TC50102</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC50102">社會老年學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳麗光 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='301D' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC50102&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >TC51200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC51200">老年醫學概論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>盧豐華 <BR />張家銘*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]8~9</TD>
+<TD><a class='room' href='#' name='301D' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC51200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7105</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >TC61110</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC61110">老年學實習（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>張家銘 <BR />劉立凡*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]9~A</TD>
+<TD><a class='room' href='#' name='201D' >醫學院                        201D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC61110&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>需修滿15學分才能選修此課程，部分時段暑假校外實習 。                     </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO6151</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >TC53000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53000">統計套裝軟體介紹比較與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>王新台 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='202D' >醫學院                        202D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC53000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英文授課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7028</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >TC60800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC60800">成功老化的生活空間</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳柏宗 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='205D' >醫學院                        205D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC60800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7014</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >TC50900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC50900">成功老化</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳麗光 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]5~7</TD>
+<TD><a class='room' href='#' name='202D' >醫學院                        202D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC50900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>歡迎大三、大四同學選修                                                  </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >TC50400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filt�修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳麗光 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]5~7</TD>
+<TD><a class='room' href='#' name='202D' >醫學院                        202D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC50900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>歡迎大三、大四同學選修                                                  </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO70er_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC50400">長期照護政策與管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉立凡 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='205D' >醫學院                        205D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC50400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本課程聘請業界師資參與                                                  </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >GERO7007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >TC53100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53100">高齡企劃案製作與評估</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>翁慧卿 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='201D' >醫學院                        201D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC53100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>此課程為服務學習課程                                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >GERO7029</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >TC52700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC52700">質性研究實作：訪談資料收集與分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳麗光 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='205D' >醫學院                        205D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC52700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7019</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >TC53200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53200">高齡溝通與諮商</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>范聖育*<BR />翁慧卿 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='201D' >醫學院                        201D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC53200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD>需先修以下科目:《臨床神經心理學                          /選修/3.0學分/70分以上》</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >GERO7030</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >TC60100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC60100">健康指標與測量</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉立凡 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='202D' >醫學院                        202D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC60100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO7011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >TC61400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC61400">ｅ化老年生活社區健康促進</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>邱靜如 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC61400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>此課程為服務學習課程                                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO6101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >T851900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=T851900">健康促進理論與實踐</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>胡淑貞*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='301D' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T851900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='t-align: center;' >TC</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >T851900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=T851900">健康促進理論與實踐</a></TD>
+<TD>選修</TD>
+<TD stylext-align: center;' >PH7204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >TC53300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD></TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53300">老化與生活綜論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王新台*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='301D' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC53300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>老化與生活跨學分學門課程                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO5000</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD s ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53300">老化與生活綜論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王新台*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='301D' >醫學院                        301D</a></TD>
+<TD><a target="moodle" htyle='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >TC53900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD></TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53900">高齡者的樂活與休閒</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>范聖育 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC53900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>老化與生活跨學分學門課程                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO5007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >老年所           GERO</TD>
+<TD style='text-align: center;' >TC</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >TC53600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD></TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53600">高齡者的居住與環境</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉立凡 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='302D' >醫學院                        302D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=TC53600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>老化與生活跨學分學門課程                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >GERO5004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=TC&cono=TC53600">高齡者的居住與環境</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉立凡 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' 

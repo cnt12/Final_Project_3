@@ -1,0 +1,839 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >L410310</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L410310">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>龔慧貞 <BR />陳燕華*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >178</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='35X01' >理化大樓                      格致廳小講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L410310&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >L410330</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L410330">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>江威德*<BR />楊懷仁 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >178</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='35X01' >理化大樓                      格致廳小講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L410330&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >L410310</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L410310">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>游鎮烽*<BR />劉正千 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >178</TD>
+<TD><BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='35X01' >理化大樓                      格致廳小講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L410310&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>格致廳上課                                                              </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >L410330</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L410330">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>楊耿明*<BR />樂鍇．祿璞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >178</TD>
+<TD><BR>[5]5~6</TD>
+<TD><a class='room' href='#' name='35X01' >理化大樓                      格致廳小講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L410330&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>格致廳上課                                                              </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >105</TD>
+<TD style='text-align: center;' >L487630</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487630">專題討論─環境地質與工程�hp?syear=0103&sem=1&co_no=L410330&class_code=2 "><img��術（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>吳銘志 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487630&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7058</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >106</TD>
+<TD style='text-align: center;' >L487730</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487730">專題討論─地下水污染（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>簡錦樹 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]3~4</TD>
+<TD><a class='room' href='#' name='C401' >地科系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487730&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7063</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >L473830</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L473830">專題討論─大規模崩塌判釋與調查（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>林慶偉 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='3031' >地科系館                      3031</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L473830&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7078</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >108</TD>
+<TD style='text-align: center;' >L487530</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487530">專題討論─沈積盆地的地體構造（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>楊耿明 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='C401' >地科系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487530&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7053</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >109</TD>
+<TD style='text-align: center;' >L487430</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487430">專題討論─遙感探測（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>劉正千 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='3035' >地科系館                      3035</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487430&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7048</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >110</TD>
+<TD style='text-align: center;' >L487230</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487230">專題討論─地震地體構造（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>饒瑞鈞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='C401' >地科系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487230&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7038</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >111</TD>
+<TD style='text-align: center;' >L487130</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487130">專題討論─地球化學（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>楊懷仁 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='C401' >地科系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487130&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選�lign: center;' >L4</TD>
+<TD style='text-align: center;' >111</TD>
+<TD style='text-align: center;' >L487130</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487130">專題討論─地球化學（三）</a></TD>
+<TD>選修</TD��                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7033</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >112</TD>
+<TD style='text-align: center;' >L487030</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487030">專題討論─同位素地球化學（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>游鎮烽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487030&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7028</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >113</TD>
+<TD style='text-align: center;' >L486930</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L486930">專題討論─岩石物理及其應用（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>龔慧貞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='C401' >地科系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L486930&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7023</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >L486830</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L486830">專題討論─礦物應用（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳燕華 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L486830&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7018</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >115</TD>
+<TD style='text-align: center;' >L486730</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博三延                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L486730">專題討論─礦物學（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>江威德 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]5~6</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L486730&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩、碩專、博三年級(含)以上同學選修                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >120</TD>
+<TD style='text-align: center;' >L451700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L451700">穿透式電子顯微鏡之應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>江威德 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='3036' >地科系館                      3036</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L451700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7105</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >121</TD>
+<TD style='text-align: center;' >L481500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L481500">晶體成長與分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳燕華 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='3036' >地科系館                      3036</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L481500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7109</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >122</TD>
+<TD style='text-align: center;' >L487900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N� </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='3036' >地科系館                      3036</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L481500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7109</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: cen</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L487900">礦物及岩石物理科學專論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>龔慧貞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='3036' >地科系館                      3036</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7118</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >125</TD>
+<TD style='text-align: center;' >L483000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L483000">臺灣陸、海域超微體生物地層層序及實驗</a></TD>
+<T036</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L487900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7118</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >125</TD>
+<TD style='text-align: center;' >L483000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博 D>選修</TD>
+<TD style='text-align: center;' >4</TD><TD>紀文榮 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[6]3~4</TD>
+<TD><a class='room' href='#' name='3035' >地科系館                      3035</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L483000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7405</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >L483000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L483000">臺灣陸、海域超微體生物地層層序及實驗</a></TD>
+<TD>選修</TD>
+<TD></TD><TD>紀文榮 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[6]5~8</TD>
+<TD><a class='room' href='#' name='3035' >地科系館                      3035</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L483000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7405</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >130</TD>
+<TD style='text-align: center;' >L484000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L484000">地震預警特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>樂鍇．祿璞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='3031' >地科系館                      3031</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L484000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7319</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >135</TD>
+<TD style='text-align: center;' >L484700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L484700">地質構造與地質災害判釋調查</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林慶偉 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='3036' >地科系館                      3036</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L484700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7409</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >136</TD>
+<TD style='text-align: center;' >L454600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L454600">地球物理探勘</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>孫鎮球 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='3031' >地科系館                      3031</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L454600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7323</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >140</TD>
+<TD style='text-align: center;' >L450300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L450300">地下水模擬</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>簡錦樹 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >42</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='C401' >地科系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L450300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7502</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >L410310</TD>
+<TD style='text-align: center;' >4 </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L410310">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>饒瑞鈞*<BR />簡錦樹 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >80</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L410310&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩士在職專班選修                                                      </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y2'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >L410330</TD>
+<TD style='text-align: center;' >4 </TD>
+<TD>碩專二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('2 ');">2 </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L410330">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>饒瑞鈞*<BR />簡錦樹 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >80</TD>
+<TD><BR>[5]6~7</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L410330&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩士在職專班學生選修                                                  </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >310</TD>
+<TD style='text-align: center;' >L456500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.ph      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L410330&class_code=4 "><img src="image/moodle.gif" alt="Moodle"></img></a>限p?dept=L4&cono=L456500">地球科學專論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡金郎 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]8~A</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L456500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限碩士在職專班選修                                                      </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7801</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >L464000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L464000">資源、環境與氣候概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><age/moodle.gif" alt="Moodle"></img></a>限碩士在職專班選修                                                      </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7801</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >L464000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>TD>羅尚德 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[6]2~4</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L464000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7821</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >312</TD>
+<TD style='text-align: center;' >L471500</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L471500">觀測地震學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>饒瑞鈞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]B~D</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L471500&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7308</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >地科所           EARS</TD>
+<TD style='text-align: center;' >L4</TD>
+<TD style='text-align: center;' >313</TD>
+<TD style='text-align: center;' >L465410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L465410">能源地質與探勘（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>紀文榮 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[7]2~4</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L465410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7840</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+"javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L4&cono=L465410">能源地質與探勘（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>紀文榮 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[7]2~4</TD>
+<TD><a class='room' href='#' name='3017' >地科系館                      3017</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L465410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >EARS7840</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' 

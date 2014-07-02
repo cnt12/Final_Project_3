@@ -1,0 +1,416 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >T350110</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T350110">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蔡佩珍 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[5]2</TD>
+<TD><a class='room' href='#' name='5761' >醫技醫工館                    5761</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T350110&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6116</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >T350130</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T350130">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>張長泉 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='5761' >醫技醫工館                    5761</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T350130&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6118</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >T350211</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T350211">實驗室教學實習（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>張權發 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T350211&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6120</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >T350231</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>實習</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T350231">實驗室教學實習（三）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>張權發 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T350231&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6122</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >T350401</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T350401">微生物致病機轉</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>吳俊忠 <BR />王貞仁*<BR />王憲威 <BR />鄧景浩 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >38</TD>
+<TD><BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='301D' >醫學院                        301D</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T350401&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫技、分醫、基醫合班                                                    </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6215</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >T352400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T352400">高等分子生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃溫雅 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='0104' >醫學院                        第四講堂</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T352400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>醫技所與分醫所合��           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >T352400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T352400">高等分子生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃溫雅 </班，第四講堂與303D上課                                  </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6311</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >T354400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T354400">醣生物學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>張權發 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='5796' >醫技醫工館                    5796</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T354400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6313</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >T352200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一二                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T352200">實驗診斷學概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>傅子芳 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]1~2</TD>
+<TD><a class='room' href='#' name='5796' >醫技醫工館                    5796</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T352200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6125</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >T360400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T360400">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>張長泉 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >70</TD>
+<TD><BR>[5]2</TD>
+<TD><a class='room' href='#' name='5761' >醫技醫工館                    5761</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T360400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6126</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >T380200</TD>
+<TD style='text-align: center;' >Y </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T380200">生醫關鍵技術之開發與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃暉升 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T380200&class_code=Y "><img src="image/moodle.gif" alt="Moodle"></img></a>暑假上課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6613</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >T380300</TD>
+<TD style='text-align: center;' >Y </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T380300">人體研究計畫與醫療器材相關法規暨倫理規範</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃暉升 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T380300&class_code=Y "><img src="image/moodle.gif" alt="Moodle"></img></a>暑假上課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6614</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >T380110</TD>
+<TD style='text-align: center;' >Y </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T380110">創業思維與啟航（一）－創業基礎</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃暉升 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T380110&class_code=Y "><img src="image/moodle.gif" alt="Moodle"></img></a>暑假上課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6615</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >T380120</TD>
+<TD style='text-align: center;' >Y </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T380120">創業思維與啟航（二）－創業發展</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃暉升 </TD>
+<TD style='text-align: center;'                                                       </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6615</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >T380120</TD>
+<TD style='text-align: center;' >Y </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;'  >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T380120&class_code=Y "><img src="image/moodle.gif" alt="Moodle"></img></a>暑假上課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6616</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >醫技所           MLSB</TD>
+<TD style='text-align: center;' >T3</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >T380130</TD>
+<TD style='text-align: center;' >Y </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=T3&cono=T380130">創業思維與啟航（三）－創業行動</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >1</TD><TD>黃暉升 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=T380130&class_code=Y "><img src="image/moodle.gif" alt="Moodle"></img></a>暑假上課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MLSB6617</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+tyle='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD

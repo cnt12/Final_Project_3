@@ -1,0 +1,644 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >L154910</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L154910">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>林景隆 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L154910&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博合班　理論中心２樓Ｒ２０４                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5009</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >L154930</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L154930">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>林景隆 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L154930&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博合班　理論中心２樓Ｒ２０４                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >L172610</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L172610">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>林景隆 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L172610&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博合班　理論中心２樓Ｒ２０４                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6009</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >L172630</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L172630">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>林景隆 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L172630&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博合班　理論中心２樓Ｒ２０４                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >L160600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L160600">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>林景隆 </TD>
+<TD style='text-align: cena>碩博合班　理論中心２樓Ｒ２０４      ter;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L160600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>供碩博三（含）以上學生選課．                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >L150310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L150310">分析通論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>方永富 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]5~6<BR>[4]3</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L150310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >L150410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L150410">代數通論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭仁傑 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]3<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L150410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >L150210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L150210">機率論（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃炎坤 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[1]7<BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L150210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >L154800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L154800">微分幾何導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>江孟蓉 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[1]5~6<BR>[3]4</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L154800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >L182500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L182500">積分方程</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李國明 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]7~8<BR>[4]2</TD>
+<TD><a class='room' href='#' name='3176' >數學系館                      3176</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L182500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6104</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >L168600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L168600">代數幾何</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蕭仁傑 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]7~8<BR>[5]7</TD>
+<TD><a class='room' href='#' name='3176' >數學系館                      3176</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L168600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH7304</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >L170910</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style=/TD>
+<TD style='text-align: center;' >3</TD><TD>蕭仁傑 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]7~8<BR>[5]7</TD>
+<TD><a class='room' href='#' name='3176' >數學系館                      3176</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L168600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH7304</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' 'text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L170910">數值偏微分方程（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>侯世章 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]5~6<BR>[4]4</TD>
+<TD><a class='room' href='#' name='3175' >數學系館                      3175</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L170910&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH6501</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >L168200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L168200">最佳化理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳順益 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]7~8<BR>[5]7</TD>
+<TD><a class='room' href='#' name='3175' >數學系館                      3175</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L168200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5804</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >014</TD>
+<TD style='text-align: center;' >C135100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=C135100">初等分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭鴻文 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[5]5~6<BR>[3]8</TD>
+<TD><a class='room' href='#' name='3173' >數學系館                      3173</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=C135100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>4科選2科                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5200</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >C136200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=C136200">實變數函數論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>吳順益 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='3175' >數學系館                      3175</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=C136200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5203</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >C133710</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=C133710">幾何學（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳若淳 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]5~6<BR>[5]8</TD>
+<TD><a class='room' href='#' name='3173' >數學系館                      3173</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=C133710&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>4科選2科                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5400</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >C146100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=C146100">傅立葉分析與應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>連文璟 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]3~4<BR>[4]1</TD>
+<TD><a class='room' href='#' name='3176' >數學系館                      3176</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=C146100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5204</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >C135001</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=C135001">群表現導論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>粘珠鳳 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]7~8<BR>[5]7</TD>
+<TD><a class='room' href='#' name='3173' >數學系館                      3173</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=C135001&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH5001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >030</TD>
+<TD style='text-align: center;' >L182700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L182700">雙曲型偏微分方程專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>方永富 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]9~B</TD>
+<TD><a class='room' href='#' name='C101' >數學系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L182700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH8011</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >L181000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascrie.php?dept=L1&cono=L182700">雙曲型偏微分方程專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>方永富 </TD>
+<TD style='pt:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L181000">辛幾何專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>江孟蓉 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='C101' >數學系館                      研討室一</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L181000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH8001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >032</TD>
+<TD style='text-align: center;' >L181400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L181400">超大型矩陣代數方程數值解專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>王辰樹 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[1]9~A</TD>
+<TD><a class='room' href='#' name='3175' >數學系館                      3175</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L181400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH8004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >033</TD>
+<TD style='text-align: center;' >L182800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L182800">橢圓系統專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>林景隆 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[2]9~A</TD>
+<TD><a class='room' href='#' name='3175' >數學系館                      3175</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L182800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH8012</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >034</TD>
+<TD style='text-align: center;' >L182900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L182900">代數幾何專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>劉珈銘 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >35</TD>
+<TD><BR>[3]9~C</TD>
+<TD><a class='room' href='#' name='3175' >數學系館                      3175</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L182900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH8013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >應數所           MATH</TD>
+<TD style='text-align: center;' >L1</TD>
+<TD style='text-align: center;' >035</TD>
+<TD style='text-align: center;' >L182600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=L1&cono=L182600">代數專題討論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >0</TD><TD>柯文峰 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[2]9~A</TD>
+<TD><a class='room' href='#' name='3177' >數學系館                      3177</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=L182600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MATH8009</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </

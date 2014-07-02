@@ -1,0 +1,841 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >N570400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N570400">生醫腐蝕</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳瑾惠 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[3]1~2<BR>[4]2</TD>
+<TD><a class='room' href='#' name='44609' >材料新館                      44609</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N570400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5028</TD>
+<TD style='text-align: center;' >生物科技學程</TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >N557600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N557600">電子顯微鏡學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>林文台 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[2]2<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='44122' >材料新館                      44122</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N557600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5046</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >N564400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N564400">表面科學與分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李汝桐 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]3~4<BR>[3]2</TD>
+<TD><a class='room' href='#' name='44302' >材料新館                      44302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N564400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5020</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >N559900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N559900">碳材料概論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>朱建平 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[4]3~4<BR>[3]4</TD>
+<TD><a class='room' href='#' name='44124' >材料新館                      44124</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N559900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>第一階段不受理選課                                                      </TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5015</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >N552600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N552600">擴散理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>方滄澤 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[1]1~2<BR>
+<TD>第一階段不受理選課</TD>
+<TD style='text[5]1</TD>
+<TD><a class='room' href='#' name='44203' >材料新館                      44203</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N552600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5005</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >N571300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N571300">高分子化學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭昌恕 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[2]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='44609' >材料新館                      44609</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N571300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限15人選課    英語授課                                                  </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5031</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >N571400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N571400">結構與異向性</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>郭瑞昭 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >55</TD>
+<TD><BR>[2]2<BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='4454' >材料系館                      4454</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N571400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5032</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >069</TD>
+<TD style='text-align: center;' >N558600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N558600">金屬基複合材料</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>曹紀元 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='44124' >材料新館                      44124</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N558600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5013</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >074</TD>
+<TD style='text-align: center;' >N571200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N571200">奈米陶瓷特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃肇瑞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[5]9~B</TD>
+<TD><a class='room' href='#' name='44609' >材料新館                      44609</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N571200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5047</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >075</TD>
+<TD style='text-align: center;' >N552900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N552900">差排理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳立輝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[1]6<BR>[3]7~8</TD>
+<TD><a class='room' href='#' name='44609' >材料新館                      44609</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N552900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5006</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >080</TD>
+<TD style='text-align: center;' >Q251500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=Q251500">微磨潤學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>李旺龍 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >54</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='4452' >材料系館                      4452</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=Q251500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NME5050</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >099</TD>
+<TD style='text-align: center;' >N562400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N56D><a class='room' href='#' name='4452' >材料系館                      4452</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=Q251500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >NME5050</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >092400">應用材料專題－半導體與顯示器技術</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王寶琪 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >50</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='4452' >材料系館                      4452</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N562400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>大學部、碩士班合開                                                      </TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >MSE5054</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >100</TD>
+<TD style='text-align: center;' >N550110</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N550110">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇彥勳 <BR />羅世強*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >270</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4001' >測量系館                      經緯廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N550110&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >MSE5048</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >N550110</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N550110">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇彥勳 <BR />羅世強*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >270</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4001' >測量系館                      經緯廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N550110&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博合班                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >MSE5048</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >102</TD>
+<TD style='text-align: center;' >N556800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N556800">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>蘇彥勳 <BR />羅世強*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >270</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4001' >測量系館                      經緯廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N556800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博三以上選修                                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >MSE5049</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >103</TD>
+<TD style='text-align: center;' >N550600</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N550600">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇彥勳 <BR />羅世強*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >270</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4001' >測量系館                      經緯廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N550600&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩博合班                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >MSE5050</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >104</TD>
+<TD style='text-align: center;' >N550600</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N550600">專題討論（三）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >1</TD><TD>蘇彥勳 <BR />羅世強*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >270</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='4001' >測量系館                      經緯廳</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N550600&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >MSE5050</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >110</TD>
+<TD style='text-align: center;' >N581500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N581500">鋼鐵製程特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>黃文星 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >90</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='41104' >工科系館                      41104</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N581500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >是</TD>
+<TD style='text-align: center;' >MSE5045</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >114</TD>
+<TD style='text-align: center;' >N553500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N553500">原子級模擬特論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許文東 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]5<BR>[5]3~4</TD>
+<TD><a class='room' href='#' name='44202' >材料新館                      44202</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N553500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5007</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >117</TD>
+<TD style='text-align: center;' >N560500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N560500">高分子相變態</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>阮至正 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='44709' >材料新館                      44709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N560500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5016</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >118</TD>
+<TD style='textn: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N560500">高分子相變態</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>阮至正 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='44709' >材料新館                      44709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N560500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5016</TD>
+<TD style='te-align: center;' >N581810</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N581810">應用材料科學（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>呂國彰 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[1]7~8<BR>[4]6</TD>
+<TD><a class='room' href='#' name='44124' >材料新館                      44124</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N581810&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課 尖端所與材料所合開                                             </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5055E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >126</TD>
+<TD style='text-align: center;' >N554500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N554500">組合式材料製程及其應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>張高碩 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >55</TD>
+<TD><BR>[3]3~4<BR>[5]2</TD>
+<TD><a class='room' href='#' name='4454' >材料系館                      4454</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N554500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5046E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >127</TD>
+<TD style='text-align: center;' >N566700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N566700">光電高分子材料</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>許聯崇 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]3~4<BR>[5]3</TD>
+<TD><a class='room' href='#' name='44302' >材料新館                      44302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N566700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5024</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >129</TD>
+<TD style='text-align: center;' >N581400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N581400">奈米材料</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>洪飛義 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >100</TD>
+<TD><BR>[3]5~7</TD>
+<TD><a class='room' href='#' name='95403' >儀器設備大樓                  95403</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N581400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5051</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >130</TD>
+<TD style='text-align: center;' >N557500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N557500">材料動力學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>羅世強 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[4]3<BR>[5]7~8</TD>
+<TD><a class='room' href='#' name='44302' >材料新館                      44302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N557500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限30人選課                                                              </TD>
+<TD>第一階段不受理選課</TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5051</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >135</TD>
+<TD style='text-align: center;' >N552310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N552310">高等固態物理（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝馬利歐 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='44201' >材料新館                      44201</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N552310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>英語授課                                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5003E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >136</TD>
+<TD style='text-align: center;' >N572900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N572900">材料光電子學應用</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蘇彥勳 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >16</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='44709' >材料新館                      44709</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N572900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5052</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >137</TD>
+<TD style='text-align: center;' >N557300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N557300">固態熱力學</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>齊孝定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >100</TD>
+<TD><BR>[1]2<BR>[2]7~8</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N557300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>1.外籍生優先 2.以上優先係指開放第一階段選課之學生身分                   </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='ter;' >137</TD>
+<TD style='text-align: center;' >N557300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-axt-align: center;' >MSE5052</TD>
+<TD style='text-align: center;' >奈米積體電路工程碩士班學分學程</TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >138</TD>
+<TD style='text-align: center;' >N557400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N557400">高等材料分析</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張高碩 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >143</TD>
+<TD><BR>[1]5<BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='93456' >化工系館                      93456</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N557400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>1.中文授課班級：大學部非材料系及重修研究生優先 2.以上優先係指開放第一階 </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5060</TD>
+<TD styleD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N557400">高等材料分析</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>張高碩 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >143</TD>
+<TD><BR>[1]5<BR>[2]5~6</TD>
+<TD><a class='room' href='#' na='text-align: center;' >奈米積體電路工程碩士班學分學程</TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >139</TD>
+<TD style='text-align: center;' >N557400</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=N557400">高等材料分析</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉全璞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >40</TD>
+<TD><BR>[1]5<BR>[2]5~6</TD>
+<TD><a class='room' href='#' name='44302' >材料新館                      44302</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=N557400&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>1.外籍生優先 2.以上優先係指開放第一階段選課之學生身分                   </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >MSE5060</TD>
+<TD style='text-align: center;' >奈米積體電路工程碩士班學分學程</TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >材料所           MSE</TD>
+<TD style='text-align: center;' >N5</TD>
+<TD style='text-align: center;' >140</TD>
+<TD style='text-align: center;' >NB80500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=N5&cono=NB80500">金屬和合金鍵結理論</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >25</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='44124' >材料新館                      44124</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=NB80500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>限25人選課 英語授課                                                     </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >icam5006E</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+�</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >Y</TD>
+<TD><a target='_blank' href="http://

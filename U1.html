@@ -1,0 +1,983 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y1'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >001</TD>
+<TD style='text-align: center;' >U150210</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U150210">政治經濟學（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>宋鎮照 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U150210&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >002</TD>
+<TD style='text-align: center;' >U151700</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U151700">研究方法論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>周志杰 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]5~7</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U151700&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >003</TD>
+<TD style='text-align: center;' >U170610</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U170610">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳欣之*<BR />洪敬富*</TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]5~6</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U170610&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE9190</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >004</TD>
+<TD style='text-align: center;' >U171400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U171400">政經研究方法論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>周志杰 <BR />蒙志成 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U171400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>社科大樓電腦教室80305                                                   </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE9002</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >005</TD>
+<TD style='text-align: center;' >U170500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U170500">高等政治經濟學理論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>鍾兆真 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='U10C' >社�enter;' >否</TD>
+<TD style='text-align: center;' >PE�院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U170500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE9001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >006</TD>
+<TD style='text-align: center;' >U170610</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>博二                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U170610">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>鍾兆真 <BR />謝文真 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U170610&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE9190</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >007</TD>
+<TD style='text-align: center;' >U153500</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U153500">總體經濟政策</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王慶輝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U153500&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >008</TD>
+<TD style='text-align: center;' >U160200</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U160200">當代政經思潮</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>范光煥 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[2]5~7</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U160200&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >U560301</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U560301">健康經濟學</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉亞明 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >15</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='D50C' >社科院大樓                    八樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U560301&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>經濟所、政經所合開                                                      </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >6502</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >U181700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U181700">比較政治經濟</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>丁仁方 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U181700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7207</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >U153600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U153600">國際戰略暨外交決策分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳欣之 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U153600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >012</TD>
+<TD style='text-align: center;' >U560400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target=' center;' >0</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[3]6~8</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U153600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所   _blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U560400">國際金融理論與政策</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔡群立 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >30</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='D50A' >社科院大樓                    八樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U560400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>經濟所、政經所合開                                                      </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >ECON6506</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >013</TD>
+<TD style='text-align: center;' >U152800</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U152800">東南亞政經專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>宋鎮照 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U152800&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >015</TD>
+<TD style='text-align: center;' >U161100</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U161100">專題研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳欣之 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U161100&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩士班已修完畢業學分,且註冊者同學修習                                   </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6190</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >016</TD>
+<TD style='text-align: center;' >U161000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博三延                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U161000">專題討論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳欣之 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U161000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>博士班修畢業學分且註冊者同學修習                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE9191</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >017</TD>
+<TD style='text-align: center;' >U182700</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U182700">區域政經研究專題：東亞區域經濟與貿易</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王慶輝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]5~7</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U182700&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7306</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >018</TD>
+<TD style='text-align: center;' >U171500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U171500">全球化與全球治理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>梁文韜 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U171500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7109</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >019</TD>
+<TD style='text-align: center;' >U155500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U155500">環境政策</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊永年 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]6~8</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U155500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7304</TD>
+<TD style='text-align: center;' >跨領域永續發展全英語學分學程(CPSD)</TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >U181900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U181900">司法政治</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王金壽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U181900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7208</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >U154100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<'_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U181900">司法政治</a></TD>
+<TD>選修</TD>
+<TD style='text-align:TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U154100">兩岸政經關係</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蒙志成 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U154100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>社科大樓電腦教室80303                                                   </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7307</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >U171300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>/TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]2~4</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U154100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>社科大樓電腦教室80303                                                   </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7307</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U171300">國際組織與國際建制</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳　勁 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]5~7</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U171300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7108</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >023</TD>
+<TD style='text-align: center;' >U153800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U153800">東北亞政經專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>周志杰 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]5~7</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U153800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7004</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >U171800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U171800">科技治理與永續發展專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鍾兆真 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U171800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7110</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >U171900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U171900">數位科技與公共政策</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蔣麗君 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]2~4</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U171900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7210</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >026</TD>
+<TD style='text-align: center;' >U172000</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U172000">文明與國際政治</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王宏仁 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]9~B</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U172000&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>本所與台灣大學政治系、德國海德堡大學漢學系合作之遠距教學課程。          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7310</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >301</TD>
+<TD style='text-align: center;' >U150210</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U150210">政治經濟學（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>宋鎮照 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[5]A~C</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U150210&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y1'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >302</TD>
+<TD style='text-align: center;' >U151700</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('1 ');">1 </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U151700">研究方法論</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >3</TD><TD>周志杰 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]A~C</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U151700&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>                                                                        </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >303</TD>
+<TD style='text-align: center;' >U170610</TD>
+<TD style='text-align: center;' >3 </TD>
+<TD>碩專一                        </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U170610">專題討論（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳欣之 <BR />洪敬富 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[6]3~4</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U170610&class_code=3 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE9190</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >304</TD>
+<TD style='teD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/cxt-align: center;' >U183100</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U183100">社會科學計量分析</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蒙志成 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]A~C</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U183100&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7305</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >305</TD>
+<TD style='text-align: center;' >U160200</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U160200">當代政經思潮</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>范光煥 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >18</TD>
+<TD><BR>[1]A~C</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U160200&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >306</TD>
+<TD style='text-align: center;' >U154700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U154700">政治發展</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>洪敬富 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[2]A~C</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U154700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7008</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >307</TD>
+<TD style='text-align: center;' >U153500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U153500">總體經濟政策</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王慶輝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]A~C</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U153500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7003</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >308</TD>
+<TD style='text-align: center;' >U155800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U155800">專案規劃、評估與管理</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>楊永年 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[1]A~C</TD>
+<TD><a class='room' href='#' name='U10C' >社科院大樓                    六樓研討室C</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U155800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6005</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >309</TD>
+<TD style='text-align: center;' >U161100</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專延三                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U161100">專題研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳欣之 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U161100&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>碩專班修完學分且註冊者同學修習                                          </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE6190</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >310</TD>
+<TD style='text-align: center;' >U182700</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U182700">區域政經研究專題：東亞區域經濟與貿易</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王慶輝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]A~C</TD>
+<TD><a class='room' href='#' name='U10A' >社科院大樓                    六樓研討室A</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U182700&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7306</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+<碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U182700">區域政經研究專題：東亞區域經濟與貿易</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王慶輝 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</T/TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >311</TD>
+<TD style='text-align: center;' >U152800</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U152800">東南亞政經專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>宋鎮照 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[4]A~C</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U152800&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >政經所           PE</TD>
+<TD style='text-align: center;' >U1</TD>
+<TD style='text-align: center;' >312</TD>
+<TD style='text-align: center;' >U181900</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專一二                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U181900">司法政治</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王金壽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</TD>
+<TD><BR>[3]A~C</TD>
+<TD><a class='room' href='#' name='U10B' >社科院大樓                    六樓研討室B</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=U181900&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >PE7208</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=U1&cono=U181900">司法政治</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王金壽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >20</

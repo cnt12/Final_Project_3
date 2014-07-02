@@ -1,0 +1,650 @@
+<html>
+<head>
+	<title>Searching Result</title>
+	<link rel="StyleSheet" href="style/tablita_new.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="script/getCourse.js"></script>
+</head>
+<body>
+ <!-- table-layout: fixed; word-break:break-all; word-wrap:break-word;width:99%; -->
+<table style='width:99%;  margin-left :10px;'>
+   <thead>
+   <tr  > 
+         <!--style="position:fixed;z-index:1;top:200px;"  不隨頁面捲動-->
+     <TH style="width:40px ">系所<br>名稱</TH>
+     <TH style="width:40px ">系號</TH>
+     <TH style="width:50px">序號</TH>
+     <TH style="width:70px">課程碼</TH>
+     <TH style="width:30px"><div style="font-size:12px;">分班碼</div></TH>
+     <TH style="width:40px">班別</TH>
+     <TH style="width:40px">年級</TH>
+     <TH style="width:70px">類別</TH>
+	     <!--20140213 新增欄位: 授課組別 -->
+	 <TH style="width:40px">組別</TH>
+     <TH style="width:40px"><div style="font-size:12px;">英語<br>授課</div></TH>
+     <TH style="width:140px">課程名稱<div style="font-size:10px;">(連結課程地圖)</div></TH>
+     <TH style="width:60px">選必修</TH>
+     <TH style="width:30px">學分</TH>
+     <TH style="width:80px">教師姓名<div style="font-size:10px;color:#006699;">*:主負責老師</div></TH>
+     <TH style="width:60px"><div style="font-size:12px;">已選課人數</div> </TH>
+	 <!-- 20130717   歐陽open  //20130301  取消 "餘額" 功能  -->
+      <TH style="width:60px">餘額 </TH> 
+     <TH style="width:60px">時間</TH>
+     <TH style="width:80px">教室</TH>
+     <TH style="width:120px">備註</TH>
+     <TH style="width:100px">限選條件</TH>
+	 <TH style="width:50px"><div style="font-size:12px;">業界專家參與</div></TH>
+	 <TH style="width:80px">屬性碼</TH>
+	 <TH style="width:80px">跨領域學分學程</TH>
+	 <TH style="width:50px">Moocs</TH>
+     <!-- 20120904  取消 "加入課表" 功能  -->
+     <!--  <TH style="width:3em">加入課表</TH>-->
+   </tr> 
+   </thead>
+   <tbody>
+   <TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >009</TD>
+<TD style='text-align: center;' >K354410</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K354410">專業史學日文（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>陳文松 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K354410&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩士班高級史學英文、專業史學日文擇一必修                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS6101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >010</TD>
+<TD style='text-align: center;' >K354310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K354310">高級史學英文（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>王文霞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[2]2<BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='25233' >歷史系館                      25233</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K354310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>碩士班高級史學英文、專業史學日文擇一必修                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS6103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >011</TD>
+<TD style='text-align: center;' >K354811</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K354811">論文寫作與實習（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>陳玉女 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[1]7~8</TD>
+<TD><a class='room' href='#' name='25234' >歷史系館                      25234</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K354811&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>基礎課程，碩士班學生生必修                                              </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS6005</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >020</TD>
+<TD style='text-align: center;' >K366500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K366500">喪葬史專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>江達智 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[1]5~6<BR>[3]6</TD>
+<TD><a class='room' href='#' name='25231' >歷史系館                      25231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K366500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7106</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >021</TD>
+<TD style='text-align: center;' >K388400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K388400">明清經濟與文化專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>顧　盼 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]2<BR>[5]3~4<>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>/TD>
+<TD><a class='room' href='#' name='25232' >歷史系館                      25232</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K388400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7140</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >022</TD>
+<TD style='text-align: center;' >K355010</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K355010">現代台海兩岸關係史專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>鄭　梓 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[3]5~6</TD>
+<TD><a class='room' href='#' name='25232' >歷史系館                      25232</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K355010&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7103</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >024</TD>
+<TD style='text-align: center;' >K363210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K363210">台灣美術史專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>蕭瓊瑞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[1]3~4</TD>
+<TD><a class='room' href='#' name='25231' >歷史系館                      25231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K363210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7131</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >025</TD>
+<TD style='text-align: center;' >K356600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K356600">晚清歷史與人物分析專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>蘇梅芳 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[2]6~8</TD>
+<TD><a class='room' href='#' name='25231' >歷史系館                      25231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K356600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7144</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >027</TD>
+<TD style='text-align: center;' >K350300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K350300">城市史專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉石吉 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[5]6~8</TD>
+<TD><a class='room' href='#' name='25232' >歷史系館                      25232</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K350300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7012</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >028</TD>
+<TD style='text-align: center;' >K383400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K383400">列女傳與歷史書寫</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>劉靜貞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[2]6<BR>[3]2~3</TD>
+<TD><a class='room' href='#' name='25233' >歷史系館                      25233</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K383400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7134</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >029</TD>
+<TD style='text-align: center;' >K387200</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K387200">臺灣商業史研究（1624-1945）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳計堯 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >24</TD>
+<TD><BR>[4]2~4</TD>
+<TD><a class='room' href='#' name='25234' >歷史系館                      25234</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K387200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7180</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >030</TD>
+<TD style='text-align: center;' >K382900</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K382900">希臘史專題討論：雅典法庭演說詞</a></TD>
+<TD>選修</TD34</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K387200&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7180</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >030</TD>
+<TD style='text-align: center;' >K382900</TD>
+<TD style='text-align: >
+<TD style='text-align: center;' >3</TD><TD>翁嘉聲 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]7~9</TD>
+<TD><a class='room' href='#' name='25233' >歷史系館                      25233</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K382900&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7180</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >031</TD>
+<TD style='text-align: center;' >K361400</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K361400">空間文化與歷史</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王健文 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[5]2~4</TD>
+<TD><a class='room' href='#' name='25231' >歷史系館                      25231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K361400&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>開放碩班選課                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7190</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >032</TD>
+<TD style='text-align: center;' >K383801</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K383801">清史專題</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>謝美娥 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[4]6~8</TD>
+<TD><a class='room' href='#' name='25232' >歷史系館                      25232</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K383801&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7198</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >033</TD>
+<TD style='text-align: center;' >K374300</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K374300">東南亞華人史專題研究</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>鄭永常 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[1]2~4</TD>
+<TD><a class='room' href='#' name='25232' >歷史系館                      25232</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K374300&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>開放碩班選課                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7196</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >034</TD>
+<TD style='text-align: center;' >K382600</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K382600">英國婦女運動專題(1880-1945)</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>王文霞 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[2]7~9</TD>
+<TD><a class='room' href='#' name='25232' >歷史系館                      25232</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K382600&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>開放碩班選課                                                            </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7194</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >035</TD>
+<TD style='text-align: center;' >K370110</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K370110">道教經典研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>丁　煌 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]7~8</TD>
+<TD><a class='room' href='#' name='25231' >歷史系館                      25231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K370110&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7198</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >038</TD>
+<TD style='text-align: center;' >K362510</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K362510">台灣文化史研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>石萬壽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='25240' >歷史系館                      25240</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K362510&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7172</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >039</TD>
+<TD style='text-align: center;' >K363310</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascriurse_map/course.php?dept=K3&cono=K362510">台灣文化史研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>石萬壽 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[3]3~4</TD>
+<TD><a class='room' href='#' name='25240' >歷史系館                      25240</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K362510&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;'pt:filter_Year('');"></a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K363310">台灣文學史料專題研究（一）</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >2</TD><TD>林瑞明 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >10</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='25240' >歷史系館                      25240</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K363310&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7180</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >040</TD>
+<TD style='text-align: center;' >K383500</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博                            </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K383500">公眾歷史的研究與呈現</a></TD>
+<TD>選修</TD>
+<TD style='text-align: center;' >3</TD><TD>陳恒安 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >額滿</TD>
+<TD><BR>[1]7~9</TD>
+<TD><a class='room' href='#' name='25231' >歷史系館                      25231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K383500&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a></TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7101</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >101</TD>
+<TD style='text-align: center;' >K375210</TD>
+<TD style='text-align: center;' >  </TD>
+<TD>博一                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>講義</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K375210">史學與史學研究（一）</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >2</TD><TD>高淑媛 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD><BR>[4]3~4</TD>
+<TD><a class='room' href='#' name='25231' >歷史系館                      25231</a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K375210&class_code=  "><img src="image/moodle.gif" alt="Moodle"></img></a>博士生必修                                                              </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS9001</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >107</TD>
+<TD style='text-align: center;' >K360201</TD>
+<TD style='text-align: center;' >1 </TD>
+<TD>碩博                          </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K360201">獨立研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K360201&class_code=1 "><img src="image/moodle.gif" alt="Moodle"></img></a>供碩博班已修畢學分者選修                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7090</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR><TR class='course_y0'>
+<TD style='text-align: center;' >歷史所           HIS</TD>
+<TD style='text-align: center;' >K3</TD>
+<TD style='text-align: center;' >316</TD>
+<TD style='text-align: center;' >K360201</TD>
+<TD style='text-align: center;' >2 </TD>
+<TD>碩專延三                      </TD>
+<TD style='text-align: center;' ><a href="javascript:filter_Year('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K360201">獨立研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K360201&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>供碩專班已修畢學分者選修                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7090</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</body>
+</html>
+ear('  ');">  </a></TD>
+<TD style='text-align: center;'>研討</TD>
+<TD style='text-align: center;' > </TD>
+<TD style='text-align: center;' >N</TD>
+<TD><a target='_blank' href="http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=K3&cono=K360201">獨立研究</a></TD>
+<TD>必修</TD>
+<TD style='text-align: center;' >0</TD><TD>未定 </TD>
+<TD style='text-align: center;' >0</TD>
+<TD style='text-align: center;' >12</TD>
+<TD>未定</TD>
+<TD><a class='room' href='#' name='' ></a></TD>
+<TD><a target="moodle" href="moodle.php?syear=0103&sem=1&co_no=K360201&class_code=2 "><img src="image/moodle.gif" alt="Moodle"></img></a>供碩專班已修畢學分者選修                                                </TD>
+<TD></TD>
+<TD style='text-align: center;' >否</TD>
+<TD style='text-align: center;' >HIS7090</TD>
+<TD style='text-align: center;' ></TD>
+<TD style='text-align: center;' >否</TD>
+</TR>   </tbody>
+</table>
+<div title='教室資訊' id='roomInfo'></div>
+   <p><br> <hr><br></p>
+			
+</b
